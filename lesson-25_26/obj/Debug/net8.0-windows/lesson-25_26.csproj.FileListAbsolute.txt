@@ -1,0 +1,16 @@
+C:\Users\User\Project\CshartpTasks\lesson-25_26\bin\Debug\net8.0-windows\lesson-25_26.exe
+C:\Users\User\Project\CshartpTasks\lesson-25_26\bin\Debug\net8.0-windows\lesson-25_26.deps.json
+C:\Users\User\Project\CshartpTasks\lesson-25_26\bin\Debug\net8.0-windows\lesson-25_26.runtimeconfig.json
+C:\Users\User\Project\CshartpTasks\lesson-25_26\bin\Debug\net8.0-windows\lesson-25_26.dll
+C:\Users\User\Project\CshartpTasks\lesson-25_26\bin\Debug\net8.0-windows\lesson-25_26.pdb
+C:\Users\User\Project\CshartpTasks\lesson-25_26\obj\Debug\net8.0-windows\lesson-25_26.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Project\CshartpTasks\lesson-25_26\obj\Debug\net8.0-windows\lesson-25_26.AssemblyInfoInputs.cache
+C:\Users\User\Project\CshartpTasks\lesson-25_26\obj\Debug\net8.0-windows\lesson-25_26.AssemblyInfo.cs
+C:\Users\User\Project\CshartpTasks\lesson-25_26\obj\Debug\net8.0-windows\lesson-25_26.csproj.CoreCompileInputs.cache
+C:\Users\User\Project\CshartpTasks\lesson-25_26\obj\Debug\net8.0-windows\lesson-25_26.sourcelink.json
+C:\Users\User\Project\CshartpTasks\lesson-25_26\obj\Debug\net8.0-windows\lesson-25_26.dll
+C:\Users\User\Project\CshartpTasks\lesson-25_26\obj\Debug\net8.0-windows\refint\lesson-25_26.dll
+C:\Users\User\Project\CshartpTasks\lesson-25_26\obj\Debug\net8.0-windows\lesson-25_26.pdb
+C:\Users\User\Project\CshartpTasks\lesson-25_26\obj\Debug\net8.0-windows\lesson-25_26.genruntimeconfig.cache
+C:\Users\User\Project\CshartpTasks\lesson-25_26\obj\Debug\net8.0-windows\ref\lesson-25_26.dll
+C:\Users\User\Project\CshartpTasks\lesson-25_26\obj\Debug\net8.0-windows\lesson-2.1600C5F2.Up2Date

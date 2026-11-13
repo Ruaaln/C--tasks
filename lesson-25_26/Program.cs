@@ -21,22 +21,33 @@ while (true)
 
     if (key == ConsoleKey.L)
     {
-        foreach (string file in Directory.GetFiles(folder, "*.png"))
+        string[] files = Directory.GetFiles(folder, "*.png");
+        if (files.Length == 0)
+            Console.WriteLine("Hec bir sekil yoxdur.");
+
+        foreach (string file in files)
             Console.WriteLine(Path.GetFileName(file));
     }
 
     if (key == ConsoleKey.Enter)
     {
-        Rectangle screen = Screen.PrimaryScreen!.Bounds;
-        using Bitmap image = new Bitmap(screen.Width, screen.Height);
-        using Graphics graphics = Graphics.FromImage(image);
+        try
+        {
+            Rectangle screen = Screen.PrimaryScreen!.Bounds;
+            using Bitmap image = new Bitmap(screen.Width, screen.Height);
+            using Graphics graphics = Graphics.FromImage(image);
 
-        graphics.CopyFromScreen(screen.Left, screen.Top, 0, 0, screen.Size);
+            graphics.CopyFromScreen(screen.Left, screen.Top, 0, 0, screen.Size);
 
-        string name = $"Screenshot_{DateTime.Now:yyyyMMdd_HHmmss_fffffff}.png";
-        string path = Path.Combine(folder, name);
-        image.Save(path, ImageFormat.Png);
+            string name = $"Screenshot_{DateTime.Now:yyyyMMdd_HHmmss_fffffff}_{Guid.NewGuid():N}.png";
+            string path = Path.Combine(folder, name);
+            image.Save(path, ImageFormat.Png);
 
-        Console.WriteLine($"Yadda saxlandi: {name}");
+            Console.WriteLine($"Yadda saxlandi: {path}");
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine($"Xeta: {ex.Message}");
+        }
     }
 }
